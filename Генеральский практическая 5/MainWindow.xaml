@@ -1,0 +1,53 @@
+﻿<Window x:Class="Генеральский_практическая_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Генеральский_практическая_6"
+        mc:Ignorable="d"
+        Title="Генеральский практическая 5" Height="585" Width="837" Icon="/79596769.jpg" ResizeMode="NoResize">
+    <Grid>
+        <Button Margin="189,0,463,504" Content="Посчитать периметр" Click="PerimetrButton" />
+        <Button Margin="645,10,10,494" Content="Удвоить стороны А,B,C" Click="DoublingButton" />
+        <Button Margin="190,78,461,427" Content="Установить параметры 1" Click="SetParams1"/>
+        <Button Margin="192,222,461,278" Content="Установить параметры 2" Click="SetParams2"/>
+        <Button Margin="-4,371,655,130" Content="О программе" Click="About_Program"/>
+        <Button Margin="193,371,460,130" Content="Выход" Click="Exit"/>
+        <Button Margin="657,427,-4,74" Content="Проверить на сущ. треуг" Click="CheckTriangle"/>
+        <Button Margin="-3,445,653,60" Content="Прибавить к сторонам 1" Click="PlusOne"/>
+        <Button Margin="195,445,460,60" Content="Убавить у сторон 1" Click="MinusOne"/>
+        <Button Margin="659,339,-4,166" Content="Найти площадь" Click="Square"/>
+        <TextBox Margin="0,0,653,504" x:Name="tbPerimetr1" IsEnabled="False"/>
+        <TextBox Margin="442,10,213,494" x:Name="tbDoublingA" IsEnabled="False"/>
+        <TextBox Margin="442,85,213,419" x:Name="tbDoublingB" IsEnabled="False"/>
+        <TextBox Margin="645,85,10,419" x:Name="tbDoublingC" IsEnabled="False"/>
+        <TextBox Margin="645,155,8,353" x:Name="tbTriangle1" IsEnabled="False"/>
+        <TextBox Margin="645,232,8,268" x:Name="tbTriangle2" IsEnabled="False"/>
+        <TextBox x:Name="tbSideA1" Margin="-1,77,655,427" />
+        <TextBox x:Name="tbSideB1" Margin="-3,147,656,353" />
+        <TextBox x:Name="tbSideC1" Margin="190,148,461,353" />
+        <TextBox x:Name="tbSideA2" Margin="-4,222,657,278" />
+        <TextBox x:Name="tbSideB2" Margin="193,298,460,203" />
+        <TextBox x:Name="tbSideC2" Margin="-3,297,654,203" />
+        <TextBox Margin="446,427,210,78" x:Name="tbCheckA"/>
+        <TextBox Margin="656,510,0,-9" x:Name="tbCheckB"/>
+        <TextBox Margin="443,510,214,-9" x:Name="tbCheckC"/>
+        <TextBox Margin="445,337,212,164" x:Name="tbSquare" IsEnabled="False"/>
+        <Label Margin="-3,206,659,293" Content="Сторона А2"/>
+        <Label Margin="-6,281,659,228" Content="Сторона B2"/>
+        <Label Margin="192,273,460,236" Content="Сторона C2"/>
+        <Label Margin="571,239,162,277" Content="Треугольник2"/>
+        <Label Margin="-1,43,653,459" Content="Сторона А1"/>
+        <Label Margin="-1,131,656,368" Content="Сторона B1"/>
+        <Label Margin="189,118,464,381" Content="Сторона C1"/>
+        <Label Margin="571,164,136,312" Content="Треугольник1"/>
+        <Label Margin="442,-8,213,526" Content="Удвоенная А"/>
+        <Label Margin="442,67,213,451" Content="Удвоенная B"/>
+        <Label Margin="645,67,10,451" Content="Удвоенная C"/>
+        <Label Margin="443,405,209,97" Content="Проверить сторону А"/>
+        <Label Margin="440,491,212,20" Content="Проверить сторону B"/>
+        <Label Margin="656,491,-4,26" Content="Проверить сторону C"/>
+        <TextBox x:Name="tbTrianglePlus" Margin="-3,509,654,-9" />
+        <TextBox x:Name="tbTriangleMinus" Margin="195,509,460,-9" />
+    </Grid>
+</Window>
